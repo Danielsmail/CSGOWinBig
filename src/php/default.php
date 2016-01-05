@@ -1,10 +1,9 @@
 <?php
-# Copyright (c) 2015 Jordan Turley, CSGO Win Big. All Rights Reserved.
 
 function getDB() {
 	$dbHost = 'localhost';
-	$db     = 'csgowinb_default';
-	$dbUser = 'csgowinb_ztizzle';
+	$db     = 'csgokick_default';
+	$dbUser = 'csgokick_ztizzle';
 
 	# Get database password from outside of web root
 	$fileLoc = $_SERVER['DOCUMENT_ROOT'] . '/../passwords.txt';
